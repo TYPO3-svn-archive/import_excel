@@ -12,11 +12,11 @@
 
 $EM_CONF[$_EXTKEY] = array(
 	'title' => 'Import Excel files to database',
-	'description' => 'Import Excel files to database, based on PHPExcel Library',
+	'description' => 'Import data from Excel files into database tables. Uses PHPExcel Library.',
 	'category' => 'module',
 	'author' => 'Andrea Schmuttermair',
-	'author_email' => '',
-	'author_company' => '',
+	'author_email' => 'spam@schmutt.de',
+	'author_company' => 'Schmuttermair Software',
 	'shy' => '',
 	'priority' => '',
 	'module' => '',
@@ -30,9 +30,9 @@ $EM_CONF[$_EXTKEY] = array(
 	'version' => '0.0.1',
 	'constraints' => array(
 		'depends' => array(
-			'extbase' => '1.3',
-			'fluid' => '1.3',
-			'typo3' => '4.5-0.0.0',
+			'extbase' => '1.3.0-6.2.99',
+			'fluid' => '1.3.0-6.2.99',
+			'typo3' => '4.5.0-6.2.99',
 		),
 		'conflicts' => array(
 		),
